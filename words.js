@@ -4,7 +4,7 @@ const BG_POOL = [
  'cw-bg-arcade.JPG',
  'cw-bg-nebula.jpeg',
  'cw-bg-flower.jpeg',
- 
+ 'cw-bg-circuit.jpeg',
  
  
 ];
