@@ -1,1 +1,6 @@
-
+in index (example) 
+const BG_POOL = [
+  'img/city01.jpg',
+  'img/glitch02.jpeg',
+  'img/neon03.png',
+];
