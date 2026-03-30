@@ -1,4 +1,7 @@
 // 'img/bg-03.png',
+const BG_POOL = [
+ 'cw-bg-azul.jpeg',
+  
 ];
 
 // ── FALLBACK GRADIENTS (used when BG_POOL is empty) ──────────
