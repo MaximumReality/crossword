@@ -1,4 +1,4 @@
-in index (example) 
+in word.js (example) 
 const BG_POOL = [
   'img/city01.jpg',
   'img/glitch02.jpeg',
