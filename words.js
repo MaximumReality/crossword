@@ -76,41 +76,45 @@ const BG_FALLBACKS = [
 
 const LEVELS = [
 
-  {
-    title: "LEVEL 01 — BOOT SEQUENCE",
-    words: [
-      { word: "GLITCH", clue: "Signal corruption in the grid",        row: 0, col: 0, dir: "across" },
-      { word: "GRID",   clue: "Networked matrix of nodes",            row: 0, col: 0, dir: "down"   },
-      { word: "LOOP",   clue: "Recursive code trap",                  row: 2, col: 2, dir: "across" },
-      { word: "HACK",   clue: "Unauthorized system access",           row: 0, col: 4, dir: "down"   },
-      { word: "NODE",   clue: "Single point in a network",            row: 4, col: 0, dir: "across" },
-      { word: "INPUT",  clue: "Data fed into a system",               row: 2, col: 4, dir: "down"   },
-    ]
-  },
+{
+  title: "LEVEL 01 — BOOT SEQUENCE",
+  words: [
+    { word: "PATCH", clue: "Quick fix for a leaky firewall",         row: 0, col: 0, dir: "across" },
+    { word: "PROXY", clue: "The middleman in the connection",        row: 0, col: 0, dir: "down"   },
+    { word: "TRACE", clue: "Following the digital breadcrumbs",      row: 0, col: 2, dir: "down"   },
+    { word: "HITCH", clue: "A minor snag in the upload",             row: 0, col: 4, dir: "down"   },
+    { word: "ORBIT", clue: "Data circling the central hub",          row: 2, col: 0, dir: "across" },
+    { word: "YIELD", clue: "Letting the high-priority packet pass",  row: 4, col: 0, dir: "across" },
+  ]
+}
 
-  {
-    title: "LEVEL 02 — DEEP PROTOCOL",
-    words: [
-      { word: "NEURAL", clue: "Brain-like computing architecture",    row: 0, col: 0, dir: "across" },
-      { word: "NEON",   clue: "Electric glow of the city",           row: 0, col: 0, dir: "down"   },
-      { word: "ECHO",   clue: "Signal bounced back from the grid",   row: 2, col: 1, dir: "across" },
-      { word: "UPLOAD", clue: "Transfer data to the cloud",          row: 0, col: 3, dir: "down"   },
-      { word: "ROGUE",  clue: "Uncontrolled AI or agent",            row: 4, col: 1, dir: "across" },
-      { word: "LINK",   clue: "Connection between two nodes",        row: 2, col: 5, dir: "down"   },
-    ]
-  },
+ {
+  title: "LEVEL 02 — DEEP PROTOCOL",
+  words: [
+    { word: "BASIC", clue: "The foundation of the initial code",     row: 0, col: 0, dir: "across" },
+    { word: "BLAST", clue: "A sudden surge of overclocked energy",   row: 0, col: 0, dir: "down"   },
+    { word: "SHELL", clue: "The outer layer of the interface",       row: 0, col: 2, dir: "down"   },
+    { word: "CLOWN", clue: "A virus wearing a friendly face",        row: 0, col: 4, dir: "down"   },
+    { word: "AHEAD", clue: "Where the future of tech is moving",     row: 2, col: 0, dir: "across" },
+    { word: "TALLY", clue: "Counting the bytes in the buffer",       row: 4, col: 0, dir: "across" },
+  ]
+}
 
-  {
-    title: "LEVEL 03 — SHADOW MATRIX",
-    words: [
-      { word: "CIPHER", clue: "Encrypted code or algorithm",         row: 0, col: 0, dir: "across" },
-      { word: "CORE",   clue: "Central processing unit",             row: 0, col: 2, dir: "down"   },
-      { word: "PIXEL",  clue: "Smallest unit of a display",          row: 2, col: 0, dir: "across" },
-      { word: "PHASE",  clue: "Stage of a system cycle",             row: 0, col: 5, dir: "down"   },
-      { word: "SPAWN",  clue: "Create a new process or entity",      row: 4, col: 0, dir: "across" },
-      { word: "WIRE",   clue: "Physical data transmission path",     row: 2, col: 3, dir: "down"   },
-    ]
-  },
+
+ {
+  title: "LEVEL 03 — SHADOW MATRIX",
+  words: [
+    { word: "SPARK", clue: "The moment a new AI awakens",            row: 0, col: 0, dir: "across" },
+    { word: "SHIFT", clue: "A change in the system state",           row: 0, col: 0, dir: "down"   },
+    { word: "ALIBI", clue: "A forged log entry to hide a hack",      row: 0, col: 2, dir: "down"   },
+    { word: "KNOCK", clue: "The sound of a port-knock sequence",     row: 0, col: 4, dir: "down"   },
+    { word: "IMAGE", clue: "A static copy of the virtual drive",     row: 2, col: 0, dir: "across" },
+    { word: "THICK", clue: "The density of the encrypted fog",       row: 4, col: 0, dir: "across" },
+  ]
+}
+
+
+
 
   {
     title: "LEVEL 04 — SIGNAL BREACH",
