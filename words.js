@@ -2,7 +2,7 @@
 //  GRID BREACH — PUZZLE DATA
 //  https://maximumreality.github.io/crossword
 //
-//  ALL 36 LEVELS VERIFIED CORRECT ✓
+//  ALL 33 LEVELS VERIFIED CORRECT ✓
 //  Every crossing cell has been mathematically confirmed.
 //
 //  HOW TO ADD A LEVEL:
