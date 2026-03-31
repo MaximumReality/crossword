@@ -31,15 +31,7 @@ const BG_POOL = [
  
 ];
  
- // 'img/bg-03.png',
-// const BG_POOL = [
- // ];
- // 'img/bg-01.jpg',
-  // 'img/bg-02.jpg',
-  // 'img/bg-03.jpg',
-  // 'img/bg-04.jpg',
-  // 'img/bg-05.jpg',
-];
+
 
 const BG_FALLBACKS = [
   'linear-gradient(135deg, #0a001a 0%, #001220 40%, #000a14 100%)',
