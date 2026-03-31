@@ -42,6 +42,17 @@ const BG_POOL = [
  'img/cw-bg-mall.jpeg',
  'img/cw-bg-server.jpeg',
  'img/cw-bg-hack.jpeg',
+ 'img/cw-bg-cpno.jpeg',
+ 'img/cw-bg-port.jpeg',
+ 'img/cw-bg-cphd.jpeg',
+ 'img/cw-bg-bac.jpeg',
+ 'img/cw-bg-ah.jpeg',
+ 'img/cw-bg-arrival.jpeg',
+ 'img/cw-bg-space.jpeg',
+ 'img/cw-bg-germ.jpeg',
+ 'img/cw-bg-stlr.jpeg',
+ 'img/cw-bg-sq-apb.jpeg',
+ 
  
  
 ];
