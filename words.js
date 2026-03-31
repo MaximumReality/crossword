@@ -1,10 +1,10 @@
 // 'img/bg-03.png',
 const BG_POOL = [
- 'cw-bg-azul.jpeg',
- 'cw-bg-arcade.JPG',
- 'cw-bg-nebula.jpeg',
- 'cw-bg-flower.jpeg',
- 'cw-bg-circuit.jpeg',
+ 'img/cw-bg-azul.jpeg',
+ 'img/cw-bg-arcade.JPG',
+ 'img/cw-bg-nebula.jpeg',
+ 'img/cw-bg-flower.jpeg',
+ 'img/cw-bg-circuit.jpeg',
  
  
 ];
