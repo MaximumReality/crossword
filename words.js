@@ -60,13 +60,13 @@ const BG_FALLBACKS = [
 ];
 
 const LEVELS = [
- {
+{
   title: "LEVEL 01 — BOOT SEQUENCE",
   words: [
     { word: "PATCH", clue: "Quick fix for a leaky firewall",         row: 0, col: 0, dir: "across" },
     { word: "PROXY", clue: "The middleman in the connection",        row: 0, col: 0, dir: "down"   },
     { word: "TRACE", clue: "Following the digital breadcrumbs",      row: 0, col: 2, dir: "down"   },
-    { word: "HEARD", clue: "Intercepted audio data",                 row: 0, col: 4, dir: "down"   }, // Fixed
+    { word: "PITCH", clue: "The high-frequency whine of a server",   row: 0, col: 4, dir: "down"   },
     { word: "ORBIT", clue: "Data circling the central hub",          row: 2, col: 0, dir: "across" },
     { word: "YIELD", clue: "Letting the high-priority packet pass",  row: 4, col: 0, dir: "across" },
   ]
@@ -77,20 +77,20 @@ const LEVELS = [
     { word: "BASIC", clue: "The foundation of the initial code",     row: 0, col: 0, dir: "across" },
     { word: "BLAST", clue: "A sudden surge of overclocked energy",   row: 0, col: 0, dir: "down"   },
     { word: "SHELL", clue: "The outer layer of the interface",       row: 0, col: 2, dir: "down"   },
-    { word: "CANDY", clue: "Sweet reward for a successful hack",     row: 0, col: 4, dir: "down"   }, // Fixed
+    { word: "CADDY", clue: "External drive enclosure or tray",       row: 0, col: 4, dir: "down"   },
     { word: "AHEAD", clue: "Where the future of tech is moving",     row: 2, col: 0, dir: "across" },
     { word: "TALLY", clue: "Counting the bytes in the buffer",       row: 4, col: 0, dir: "across" },
   ]
   },
- {
+{
   title: "LEVEL 03 — SHADOW MATRIX",
   words: [
     { word: "SPARK", clue: "The moment a new AI awakens",            row: 0, col: 0, dir: "across" },
     { word: "SHIFT", clue: "A change in the system state",           row: 0, col: 0, dir: "down"   },
     { word: "ALIBI", clue: "A forged log entry to hide a hack",      row: 0, col: 2, dir: "down"   },
-    { word: "KEEPS", clue: "The secure vault where data stays",      row: 0, col: 4, dir: "down"   }, // Fixed
+    { word: "KNEEL", clue: "Submit to the master program",           row: 0, col: 4, dir: "down"   },
     { word: "IMAGE", clue: "A static copy of the virtual drive",     row: 2, col: 0, dir: "across" },
-    { word: "THICK", clue: "The density of the encrypted fog",       row: 4, col: 0, dir: "across" },
+    { word: "TRIAL", clue: "A test run of the shadow code",          row: 4, col: 0, dir: "across" },
   ]
   },
   {
