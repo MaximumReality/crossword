@@ -33,14 +33,7 @@ const BG_POOL = [
  
  // 'img/bg-03.png',
 // const BG_POOL = [
- 'img/cw-bg-azul.jpeg',
- 'img/cw-bg-arcade.JPG',
- 'img/cw-bg-nebula.jpeg',
- 'img/cw-bg-flower.jpeg',
- 'img/cw-bg-circuit.jpeg',
- 
- 
-// ];
+ // ];
  // 'img/bg-01.jpg',
   // 'img/bg-02.jpg',
   // 'img/bg-03.jpg',
