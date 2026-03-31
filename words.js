@@ -410,4 +410,13 @@ const LEVELS = [
       { word: "WORMY", clue: "Corrupted data worming through the void",     row: 0, col: 4, dir: "down"   },
       { word: "SONAR", clue: "Pinging the void for any response",           row: 2, col: 0, dir: "across" },
       { word: "NERDY", clue: "Only the nerdy survive the deep void",        row: 4, col: 0, dir: "across" },
-]; // ← end of LEVELS — don't delete this line
+    ]
+  }
+];
+
+// ═══════════════════════════════════════════════════════════════
+//  EXPORT LOGIC — DO NOT DELETE
+// ═══════════════════════════════════════════════════════════════
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { LEVELS, BG_POOL, BG_FALLBACKS };
+}
