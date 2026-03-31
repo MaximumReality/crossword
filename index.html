@@ -153,6 +153,37 @@
     box-shadow: 0 0 10px rgba(255,230,0,0.15);
   }
 
+  .back-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+
+  display: inline-block;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+
+  color: var(--neon); /* cyan instead of yellow */
+  border: 1px solid var(--neon);
+
+  padding: 2px 10px;
+  letter-spacing: 0.15em;
+  text-decoration: none;
+
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+
+  box-shadow: 0 0 10px rgba(0,255,231,0.15);
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.back-badge:hover {
+  color: var(--neon2); /* magenta on hover */
+  border-color: var(--neon2);
+  box-shadow: 0 0 12px rgba(255,0,200,0.25);
+}
+
   /* ── PROGRESS BAR ── */
   .progress-wrap {
     width: min(480px, 100%);
@@ -386,6 +417,7 @@
 <div id="bg-layer"></div>
 
 <div id="app">
+  <a href="https://maximumreality.github.io/game" class="back-badge">← EXIT GRID</a>
   <header>
     <div class="game-title">GRID BREACH</div>
     <div class="game-sub">▸ MAXIMUM REALITY CROSSWORD ◂</div>
