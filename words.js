@@ -64,12 +64,12 @@ const LEVELS = [
 {
   title: "LEVEL 01 — BOOT SEQUENCE",
   words: [
-    { word: "SHARP", clue: "High-resolution digital clarity",        row: 0, col: 0, dir: "across" },
-    { word: "STACK", clue: "A first-in, last-out data structure",    row: 0, col: 0, dir: "down"   },
-    { word: "ALIBI", clue: "A forged log entry to hide a hack",      row: 0, col: 2, dir: "down"   },
-    { word: "PITCH", clue: "The high-frequency whine of a server",   row: 0, col: 4, dir: "down"   },
-    { word: "ROBOT", clue: "Automated script running on the grid",    row: 2, col: 0, dir: "across" },
-    { word: "Kevlar", clue: "Hardened shell for data protection",    row: 4, col: 0, dir: "across" },
+    { word: "sharp", clue: "High-resolution digital clarity",        row: 0, col: 0, dir: "across" },
+    { word: "stack", clue: "A first-in, last-out data structure",    row: 0, col: 0, dir: "down"   },
+    { word: "alibi", clue: "A forged log entry to hide a hack",      row: 0, col: 2, dir: "down"   },
+    { word: "pitch", clue: "The high-frequency whine of a server",   row: 0, col: 4, dir: "down"   },
+    { word: "robot", clue: "Automated script running on the grid",    row: 2, col: 0, dir: "across" },
+    { word: "knelt", clue: "Submission to the master protocol",       row: 4, col: 0, dir: "across" },
   ]
 },
  
