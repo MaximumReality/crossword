@@ -61,18 +61,17 @@ const BG_FALLBACKS = [
 
 const LEVELS = [
  
- {
-  title: "LEVEL 01 — BOOT SEQUENCE",
-  words: [
-    { word: "PATCH", clue: "Quick fix for a leaky firewall",         row: 0, col: 0, dir: "across" },
-    { word: "PROXY", clue: "The middleman in the connection",        row: 0, col: 0, dir: "down"   },
-    { word: "TRACE", clue: "Following the digital breadcrumbs",      row: 0, col: 2, dir: "down"   },
-    { word: "PIT",   clue: "A deep glitch in the system core",       row: 0, col: 4, dir: "down"   },
-    { word: "ORBIT", clue: "Data circling the central hub",          row: 2, col: 0, dir: "across" },
-    { word: "YIELD", clue: "Letting the high-priority packet pass",  row: 4, col: 0, dir: "across" },
+{
+  "title": "LEVEL 01 — BOOT SEQUENCE",
+  "words": [
+    { "word": "PATCH", "clue": "Quick fix for a leaky firewall",         "row": 0, "col": 0, "dir": "across" },
+    { "word": "PROXY", "clue": "The middleman in the connection",        "row": 0, "col": 0, "dir": "down"   },
+    { "word": "TABLE", "clue": "A structured data arrangement",          "row": 0, "col": 2, "dir": "down"   },
+    { "word": "HIT",   "clue": "A successful connection attempt",        "row": 0, "col": 4, "dir": "down"   },
+    { "word": "ORBIT", "clue": "Data circling the central hub",          "row": 2, "col": 0, "dir": "across" },
+    { "word": "YIELD", "clue": "Letting the high-priority packet pass",  "row": 4, "col": 0, "dir": "across" }
   ]
-
- },
+},
  
 {
   title: "LEVEL 02 — DEEP PROTOCOL",
