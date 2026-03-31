@@ -60,17 +60,19 @@ const BG_FALLBACKS = [
 ];
 
 const LEVELS = [
+ 
 {
   title: "LEVEL 01 — BOOT SEQUENCE",
   words: [
-    { word: "PATCH", clue: "Quick fix for a leaky firewall",         row: 0, col: 0, dir: "across" },
-    { word: "PROXY", clue: "The middleman in the connection",        row: 0, col: 0, dir: "down"   },
-    { word: "TRACE", clue: "Following the digital breadcrumbs",      row: 0, col: 2, dir: "down"   },
+    { word: "SHARP", clue: "High-resolution digital clarity",        row: 0, col: 0, dir: "across" },
+    { word: "STACK", clue: "A first-in, last-out data structure",    row: 0, col: 0, dir: "down"   },
+    { word: "ALIBI", clue: "A forged log entry to hide a hack",      row: 0, col: 2, dir: "down"   },
     { word: "PITCH", clue: "The high-frequency whine of a server",   row: 0, col: 4, dir: "down"   },
-    { word: "ORBIT", clue: "Data circling the central hub",          row: 2, col: 0, dir: "across" },
-    { word: "YIELD", clue: "Letting the high-priority packet pass",  row: 4, col: 0, dir: "across" },
+    { word: "ROBOT", clue: "Automated script running on the grid",    row: 2, col: 0, dir: "across" },
+    { word: "Kevlar", clue: "Hardened shell for data protection",    row: 4, col: 0, dir: "across" },
   ]
 },
+ 
 {
   title: "LEVEL 02 — DEEP PROTOCOL",
   words: [
@@ -82,6 +84,7 @@ const LEVELS = [
     { word: "TALLY", clue: "Counting the bytes in the buffer",       row: 4, col: 0, dir: "across" },
   ]
   },
+ 
 {
   title: "LEVEL 03 — SHADOW MATRIX",
   words: [
@@ -93,6 +96,7 @@ const LEVELS = [
     { word: "TRIAL", clue: "A test run of the shadow code",          row: 4, col: 0, dir: "across" },
   ]
   },
+ 
   {
     title: "LEVEL 04 — SIGNAL BREACH",
     words: [
@@ -104,6 +108,7 @@ const LEVELS = [
       { word: "NELLY", clue: "Nervous — as in not on your Nelly",           row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 05 — SYSTEM OVERFLOW",
     words: [
@@ -115,6 +120,7 @@ const LEVELS = [
       { word: "ETHER", clue: "The invisible medium signals travel through", row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 06 — DARK NET",
     words: [
@@ -126,6 +132,7 @@ const LEVELS = [
       { word: "EARLY", clue: "First adopter of underground technology",     row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 07 — VOID SIGNAL",
     words: [
@@ -137,6 +144,7 @@ const LEVELS = [
       { word: "NITRO", clue: "High-speed fuel for overclocked systems",     row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 08 — AZUL PROTOCOL",
     words: [
@@ -148,6 +156,7 @@ const LEVELS = [
       { word: "EXALT", clue: "To elevate to maximum reality status",         row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 09 — DEEP SPACE",
     words: [
@@ -159,6 +168,7 @@ const LEVELS = [
       { word: "ETHER", clue: "Ancient name for the fabric of space",        row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 10 — WORLD GRID",
     words: [
@@ -170,6 +180,7 @@ const LEVELS = [
       { word: "EERIE", clue: "Strange feeling at the edge of the map",     row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 11 — LAB PROTOCOL",
     words: [
@@ -181,6 +192,7 @@ const LEVELS = [
       { word: "RIDER", clue: "Amendment attached to a lab protocol",        row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 12 — MED CORE",
     words: [
@@ -192,6 +204,7 @@ const LEVELS = [
       { word: "LARGE", clue: "The large intestine — part of the GI tract",  row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 13 — BIO MATRIX",
     words: [
@@ -203,6 +216,7 @@ const LEVELS = [
       { word: "EVADE", clue: "How pathogens dodge immune detection",        row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 14 — COSMIC DRIFT",
     words: [
@@ -214,6 +228,7 @@ const LEVELS = [
       { word: "RIGID", clue: "Unbending — like the laws of the cosmos",     row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 15 — DATA STREAM",
     words: [
@@ -225,6 +240,7 @@ const LEVELS = [
       { word: "EARLY", clue: "First packet transmitted in a session",       row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 16 — CITY LIGHTS",
     words: [
@@ -236,6 +252,7 @@ const LEVELS = [
       { word: "RHYME", clue: "The rhythm of city rain on steel",             row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 17 — DESERT CODE",
     words: [
@@ -247,6 +264,7 @@ const LEVELS = [
       { word: "AGENT", clue: "Operative working in the desert heat",        row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 18 — OCEAN DEPTHS",
     words: [
@@ -258,6 +276,7 @@ const LEVELS = [
       { word: "ERROR", clue: "A depth gauge malfunction at pressure",       row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 19 — TIME LOOP",
     words: [
@@ -269,6 +288,7 @@ const LEVELS = [
       { word: "EJECT", clue: "The only way to escape the time loop",        row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 20 — FOOD CORE",
     words: [
@@ -280,6 +300,7 @@ const LEVELS = [
       { word: "ELEGY", clue: "A lament for the very last slice",            row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 21 — WEATHER SYS",
     words: [
@@ -291,6 +312,7 @@ const LEVELS = [
       { word: "LORDY", clue: "Exclamation when the tornado siren sounds",   row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 22 — MUSIC GRID",
     words: [
@@ -302,6 +324,7 @@ const LEVELS = [
       { word: "SHEEN", clue: "Polished gloss on a perfectly mixed track",   row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 23 — ANIMAL FILE",
     words: [
@@ -313,6 +336,7 @@ const LEVELS = [
       { word: "TITAN", clue: "The great whale — titan of the deep",         row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 24 — COLOR CODE",
     words: [
@@ -324,6 +348,7 @@ const LEVELS = [
       { word: "STYLE", clue: "Your color choices define your visual style", row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 25 — SCHOOL SYS",
     words: [
@@ -335,6 +360,7 @@ const LEVELS = [
       { word: "SMELL", clue: "Old textbooks have a distinctive one",        row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 26 — SPORTS MODE",
     words: [
@@ -346,6 +372,7 @@ const LEVELS = [
       { word: "EMCEE", clue: "Announcer calling the live play-by-play",     row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 27 — HOME BASE",
     words: [
@@ -357,6 +384,7 @@ const LEVELS = [
       { word: "DERBY", clue: "Neighborhood race — a beloved home tradition",row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 28 — TECH CORE",
     words: [
@@ -368,6 +396,7 @@ const LEVELS = [
       { word: "COAST", clue: "Let the system coast — idle mode engaged",    row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 29 — NATURE GRID",
     words: [
@@ -379,6 +408,7 @@ const LEVELS = [
       { word: "NURSE", clue: "Nurse log — fallen tree feeding new growth",  row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 30 — ENERGY FLOW",
     words: [
@@ -390,6 +420,7 @@ const LEVELS = [
       { word: "EVERY", clue: "Energy flows through every single node",      row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 31 — TRAVEL MODE",
     words: [
@@ -401,6 +432,7 @@ const LEVELS = [
       { word: "YIELD", clue: "Yield to oncoming traffic on the road",       row: 4, col: 0, dir: "across" },
     ]
   },
+ 
   {
     title: "LEVEL 32 — VOID ECHO",
     words: [
@@ -412,6 +444,7 @@ const LEVELS = [
       { word: "NERDY", clue: "Only the nerdy survive the deep void",        row: 4, col: 0, dir: "across" },
     ]
   },
+ 
    {
     title: "LEVEL 33 — FINAL NODE",
     words: [
@@ -423,7 +456,8 @@ const LEVELS = [
       { word: "TOTAL", clue: "Total system breach — the grid is yours",     row: 4, col: 0, dir: "across" },
     ]
   },
-];
+ 
+];  // do not delete 
 
 // ═══════════════════════════════════════════════════════════════
 //  EXPORT LOGIC — DO NOT DELETE
