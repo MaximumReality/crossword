@@ -60,17 +60,19 @@ const BG_FALLBACKS = [
 ];
 
 const LEVELS = [
+ 
  {
   title: "LEVEL 01 — BOOT SEQUENCE",
   words: [
-    { word: "SHARP", clue: "High-resolution digital clarity",        row: 0, col: 0, dir: "across" },
-    { word: "SONIC", clue: "The speed of a data transmission",       row: 2, col: 0, dir: "across" },
-    { word: "ROUGH", clue: "Unfinished code in the early alpha",     row: 4, col: 0, dir: "across" },
-    { word: "STACK", clue: "A first-in, last-out data structure",    row: 0, col: 0, dir: "down"   },
-    { word: "ALABI", clue: "A forged log entry to hide a hack",      row: 0, col: 2, dir: "down"   },
-    { word: "PIT", clue: "a deep glitch in the system core",   row: 0, col: 4, dir: "down"   }
+    { word: "PATCH", clue: "Quick fix for a leaky firewall",         row: 0, col: 0, dir: "across" },
+    { word: "PROXY", clue: "The middleman in the connection",        row: 0, col: 0, dir: "down"   },
+    { word: "TRACE", clue: "Following the digital breadcrumbs",      row: 0, col: 2, dir: "down"   },
+    { word: "PIT",   clue: "A deep glitch in the system core",       row: 0, col: 4, dir: "down"   },
+    { word: "ORBIT", clue: "Data circling the central hub",          row: 2, col: 0, dir: "across" },
+    { word: "YIELD", clue: "Letting the high-priority packet pass",  row: 4, col: 0, dir: "across" },
   ]
-   },
+
+ },
  
 {
   title: "LEVEL 02 — DEEP PROTOCOL",
