@@ -52,6 +52,13 @@ const BG_POOL = [
  'img/cw-bg-germ.jpeg',
  'img/cw-bg-stlr.jpeg',
  'img/cw-bg-sq-apb.jpeg',
+ 'img/a_neon-lit_cyberpunk_alley_wit.jpeg',
+ 'img/cw-bg-vw-mr.jpeg',
+ 'img/cw-cosmic.jpeg',
+ 'img/cw-city.jpeg',
+ 'img/MaximumReality.jpeg',
+ 
+ 
  
  
  
