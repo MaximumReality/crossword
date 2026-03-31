@@ -27,6 +27,21 @@ const BG_POOL = [
  'img/cw-bg-nebula.jpeg',
  'img/cw-bg-flower.jpeg',
  'img/cw-bg-circuit.jpeg',
+ 'img/cw-bg-ufo.jpeg',
+ 'img/cw-bg-pf.jpeg',
+ 'img/cw-bg-portal.jpeg',
+ 'img/cw-bg-city.jpeg',
+ 'img/cw-bg-kitchen.jpeg',
+ 'img/cw-bg-abandon.jpeg',
+ 'img/cw-bg-blast.jpeg',
+ 'img/cw-bg-dilap.jpeg',
+ 'img/cw-bg-hpar.jpeg',
+ 'img/cw-bg-moon.jpeg',
+ 'img/cw-bg-planets.jpeg',
+ 'img/cw-bg-woods.jpeg',
+ 'img/cw-bg-mall.jpeg',
+ 'img/cw-bg-server.jpeg',
+ 'img/cw-bg-hack.jpeg',
  
  
 ];
