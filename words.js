@@ -411,7 +411,18 @@ const LEVELS = [
       { word: "SONAR", clue: "Pinging the void for any response",           row: 2, col: 0, dir: "across" },
       { word: "NERDY", clue: "Only the nerdy survive the deep void",        row: 4, col: 0, dir: "across" },
     ]
-  }
+  },
+   {
+    title: "LEVEL 33 — FINAL NODE",
+    words: [
+      { word: "ANGST", clue: "The feeling before the final transmission",   row: 0, col: 0, dir: "across" },
+      { word: "ADAPT", clue: "The system must adapt or be deleted",         row: 0, col: 0, dir: "down"   },
+      { word: "GUILT", clue: "Ghost data left behind after a system purge", row: 0, col: 2, dir: "down"   },
+      { word: "TROLL", clue: "Entity lurking at the final node",            row: 0, col: 4, dir: "down"   },
+      { word: "AMINO", clue: "Base unit — amino acid of the grid",          row: 2, col: 0, dir: "across" },
+      { word: "TOTAL", clue: "Total system breach — the grid is yours",     row: 4, col: 0, dir: "across" },
+    ]
+  },
 ];
 
 // ═══════════════════════════════════════════════════════════════
